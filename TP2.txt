@@ -1,0 +1,45 @@
+a-Como actualizo mi repositorio, al estado que este el repo que hice FORK?
+	1- git remote add upstream https://github.com/LodolaTomas/TP_SO_i2
+								_EQUIPO_6.git
+	2- git fecht upstream
+	
+	3- git log
+
+	4- git rebase upstream/master
+
+b-Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+	si es posible obtener los commits del fork de GAMMA
+
+c-Puede GAMMA actualizar su FORK al estado del fork de ALTA?
+
+	-----
+
+d-Los datos que tenia en mi repositorio, editados por mi, se pierden si 
+						quiero actualizar el fork?
+	No, nose pierde ningun dato editado por mi al actualizar el fork
+
+e- realizar un listado con los apellidos y nombres de los alumnos, junto con
+   los comandos y orden de ejcucion de los mismos, que debieron usar para el TP
+	
+Tomas Lodola:
+git init
+git clone
+nano fork.txt
+hostname -I
+date
+
+git add fork.txt
+git commit -m ""
+git push
+
+
+git remote add upstream https://github.com/LodolaTomas/TP_SO_i2_EQUIPO_6.git 
+git fecht upstream
+git log
+git rebase upstream/master
+
+git add .
+git commir -m ""
+git push
+
